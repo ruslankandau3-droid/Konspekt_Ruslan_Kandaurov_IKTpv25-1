@@ -99,6 +99,30 @@
                 Console.WriteLine("parool on õige, aarete laegas avaneb");
             }
 
+            //
+            Console.WriteLine("Milline värv sulle kõige rohkem meeldib?:");
+            string favouriteColour = Console.ReadLine();
+            if (favouriteColour == "punane")
+            {
+                Console.BackgroundColor = ConsoleColor.Red;
+            }
+            if (favouriteColour == "oranz")
+            {
+                Console.WriteLine("kahjuks oranzi ei ole");
+            }
+            if (favouriteColour == "kollane")
+            {
+                Console.BackgroundColor = ConsoleColor.Yellow;
+            }
+            if (favouriteColour == "rohaline")
+            {
+                Console.BackgroundColor = ConsoleColor.Green;
+            }
+            else
+            {
+                Console.WriteLine("Värvi ei tunne");
+            }
+            Console.WriteLine("Värv muudetud")
         }
     }
 }
