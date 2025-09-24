@@ -82,6 +82,22 @@
                 Console.WriteLine("pikkus ei tunta");
             }
 
+            //4 parool, if ja string andmetüüp
+            Console.WriteLine("Programmi edasiseks tööks sisesra palun parool:");
+            string password = Console.ReadLine();
+
+            if (password == "simsalabim")
+            {
+                Console.WriteLine("parool on õige, aarete laegas avaneb");
+            }
+            else if (password == "saatana" || password == "tuborosho")
+            {
+                Console.WriteLine("Parool on sobimatu, palun mingi muu");
+            }
+            else
+            {
+                Console.WriteLine("parool on õige, aarete laegas avaneb");
+            }
 
         }
     }
