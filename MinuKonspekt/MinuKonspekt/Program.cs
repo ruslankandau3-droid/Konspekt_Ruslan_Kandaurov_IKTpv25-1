@@ -122,7 +122,7 @@
             {
                 Console.WriteLine("Värvi ei tunne");
             }
-            Console.WriteLine("Värv muudetud")
+            Console.WriteLine("Värv muudetud");
         }
     }
 }
