@@ -1,0 +1,151 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.2.5 Chrome/138.0.7204.251 Electron/37.6.1 Safari/537.36" version="28.2.5">
+  <diagram name="Leht-1" id="a-DuTLv-B4vsPvQ34Vn9">
+    <mxGraphModel dx="761" dy="1031" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Gk5T-dsEplZuqdgdqL-Q-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Gk5T-dsEplZuqdgdqL-Q-1" target="Gk5T-dsEplZuqdgdqL-Q-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Gk5T-dsEplZuqdgdqL-Q-1" value="Algus" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="60" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Gk5T-dsEplZuqdgdqL-Q-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Gk5T-dsEplZuqdgdqL-Q-2" target="Gk5T-dsEplZuqdgdqL-Q-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Gk5T-dsEplZuqdgdqL-Q-2" value="Kuva kasutajale tekst&amp;nbsp;&lt;br&gt;&quot;sisesta ostusumma&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="140" width="180" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="Gk5T-dsEplZuqdgdqL-Q-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Gk5T-dsEplZuqdgdqL-Q-4" target="Gk5T-dsEplZuqdgdqL-Q-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Gk5T-dsEplZuqdgdqL-Q-4" value="tekitamme muutuja &quot;ostusumma&quot; mille sisse loeme väärtuse kasutajak" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="285" y="240" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Gk5T-dsEplZuqdgdqL-Q-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Gk5T-dsEplZuqdgdqL-Q-6" target="Gk5T-dsEplZuqdgdqL-Q-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Gk5T-dsEplZuqdgdqL-Q-10" value="JAH" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Gk5T-dsEplZuqdgdqL-Q-9">
+          <mxGeometry x="-0.2101" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Gk5T-dsEplZuqdgdqL-Q-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Gk5T-dsEplZuqdgdqL-Q-6" target="Gk5T-dsEplZuqdgdqL-Q-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Gk5T-dsEplZuqdgdqL-Q-17" value="EI" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Gk5T-dsEplZuqdgdqL-Q-12">
+          <mxGeometry x="0.0124" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Gk5T-dsEplZuqdgdqL-Q-6" value="Kas kasutaja ostusumma on suurem kui 100?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="340" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Gk5T-dsEplZuqdgdqL-Q-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Gk5T-dsEplZuqdgdqL-Q-8" target="Gk5T-dsEplZuqdgdqL-Q-32">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="790" y="382" />
+              <mxPoint x="790" y="1080" />
+              <mxPoint x="390" y="1080" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Gk5T-dsEplZuqdgdqL-Q-8" value="Kuvame kasutajale teksti &quot;saad 20% allahindlust&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="350" width="190" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="Gk5T-dsEplZuqdgdqL-Q-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Gk5T-dsEplZuqdgdqL-Q-11" target="Gk5T-dsEplZuqdgdqL-Q-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Gk5T-dsEplZuqdgdqL-Q-24" value="JAH" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Gk5T-dsEplZuqdgdqL-Q-14">
+          <mxGeometry x="-0.0336" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Gk5T-dsEplZuqdgdqL-Q-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Gk5T-dsEplZuqdgdqL-Q-11" target="Gk5T-dsEplZuqdgdqL-Q-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Gk5T-dsEplZuqdgdqL-Q-18" value="EI" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Gk5T-dsEplZuqdgdqL-Q-16">
+          <mxGeometry x="0.0786" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Gk5T-dsEplZuqdgdqL-Q-11" value="Kas kasutaja ostusumma on suurem kui 50 ja väiksem kui 101?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="295.63" y="470" width="188.75" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Gk5T-dsEplZuqdgdqL-Q-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Gk5T-dsEplZuqdgdqL-Q-13" target="Gk5T-dsEplZuqdgdqL-Q-32">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="790" y="520" />
+              <mxPoint x="790" y="1080" />
+              <mxPoint x="390" y="1080" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Gk5T-dsEplZuqdgdqL-Q-13" value="Kuvane kasutajale teksti &quot;saad 10% allahindlust&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="487.5" width="160" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="Gk5T-dsEplZuqdgdqL-Q-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Gk5T-dsEplZuqdgdqL-Q-15" target="Gk5T-dsEplZuqdgdqL-Q-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Gk5T-dsEplZuqdgdqL-Q-23" value="JAH" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Gk5T-dsEplZuqdgdqL-Q-20">
+          <mxGeometry x="-0.0011" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Gk5T-dsEplZuqdgdqL-Q-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Gk5T-dsEplZuqdgdqL-Q-15" target="Gk5T-dsEplZuqdgdqL-Q-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Gk5T-dsEplZuqdgdqL-Q-31" value="EI" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Gk5T-dsEplZuqdgdqL-Q-22">
+          <mxGeometry x="0.0375" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Gk5T-dsEplZuqdgdqL-Q-15" value="Kas kasutaja ostusumma on suurem kui 20 ja väiksem kui 51?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="295.63" y="640" width="188.75" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Gk5T-dsEplZuqdgdqL-Q-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Gk5T-dsEplZuqdgdqL-Q-19" target="Gk5T-dsEplZuqdgdqL-Q-32">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="790" y="690" />
+              <mxPoint x="790" y="1080" />
+              <mxPoint x="390" y="1080" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Gk5T-dsEplZuqdgdqL-Q-19" value="Kuvame kasutajale teksti &quot;saad 5% allahindlust&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="598.76" y="660" width="161.25" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Gk5T-dsEplZuqdgdqL-Q-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Gk5T-dsEplZuqdgdqL-Q-21" target="Gk5T-dsEplZuqdgdqL-Q-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Gk5T-dsEplZuqdgdqL-Q-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Gk5T-dsEplZuqdgdqL-Q-21" target="Gk5T-dsEplZuqdgdqL-Q-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Gk5T-dsEplZuqdgdqL-Q-21" value="Kas kasutaja ostusumma on suurem kui 0 ja väiksem kui 21?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="295.63" y="820" width="188.75" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Gk5T-dsEplZuqdgdqL-Q-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Gk5T-dsEplZuqdgdqL-Q-25" target="Gk5T-dsEplZuqdgdqL-Q-32">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="790" y="870" />
+              <mxPoint x="790" y="1080" />
+              <mxPoint x="390" y="1080" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Gk5T-dsEplZuqdgdqL-Q-25" value="Kuvame kasutajale teksti&lt;br&gt;&quot;allahindlust ei saa&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="598.76" y="840" width="171.24" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Gk5T-dsEplZuqdgdqL-Q-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Gk5T-dsEplZuqdgdqL-Q-29" target="Gk5T-dsEplZuqdgdqL-Q-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Gk5T-dsEplZuqdgdqL-Q-29" value="Kuvame kasutajale teksti &quot;Sisestanud on vigane arv&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="305" y="980" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Gk5T-dsEplZuqdgdqL-Q-32" value="Lõpp" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="325.01" y="1109" width="130" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

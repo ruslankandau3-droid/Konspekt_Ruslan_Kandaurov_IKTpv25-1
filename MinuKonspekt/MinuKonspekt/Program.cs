@@ -379,6 +379,30 @@
             //tehte tulemus. Selle jaoks on WriteLine funktsioonis parameetrina pandud muutuja
             //"tulemus" ilma tekstiks teisendamata. Lause lõppeb lauselõpumärgiga ";".
 
+            Console.WriteLine("Sisesta ostusumma");
+            double ostusumma = double.Parse(Console.ReadLine());
+            if (ostusumma > 100)
+            {
+                Console.WriteLine("Saad 20% allahindlust!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
+            }
+            else if(ostusumma < 101 && ostusumma > 50)
+            {
+                Console.WriteLine("Saad 10% allahindlust. c: yay");
+            }
+            else if (ostusumma < 51 && ostusumma > 20)
+            {
+                Console.WriteLine("5% allahindlust.");
+            }
+            else if (ostusumma <21 && ostusumma > 0)
+            {
+                Console.WriteLine("allahindlust ei saa");
+            }
+            else
+            {
+                Console.WriteLine("sisestatud on vigane arv");
+            }
+
+
             //string kasutajaNimi = "";
             //do
             //{
@@ -420,9 +444,9 @@
             /* tingimulause osad */
             if (true) { } //kaitstud sõna if kutsub esile tingimualuse, mille tingimus on sulgude vahel, ning millele järgneb
                           //koodiplokk tingimuse täitumisel teostatava koodiga
-            else if(true) { }  //kaitstud sõnad "else" ja "if" (else if) kutsuvad elsile sekundaarse tingimuslause, mille tingimus
-                               //on saamamoodi sulgude vahel, ning millele pepab eelnema alat kas "if" või teine "else if". Tingimuse täitumisel
-                               //ja eelneva tingimuse mittetäitumisel, teostatakse koodiploki sees olev kood.
+            else if (true) { }  //kaitstud sõnad "else" ja "if" (else if) kutsuvad elsile sekundaarse tingimuslause, mille tingimus
+                                //on saamamoodi sulgude vahel, ning millele pepab eelnema alat kas "if" või teine "else if". Tingimuse täitumisel
+                                //ja eelneva tingimuse mittetäitumisel, teostatakse koodiploki sees olev kood.
             else { } //kaitstud sõna "else" kutsub esile järeltingimuse, millele peab eelnema kas "if" või "else if", ning mille koodiploki sisu
                      //täidetakse kõikide teise "if" ja "else if" tingimuste läbikukkumisel.
 
@@ -462,7 +486,7 @@
             thing /= 2;    // /= -> võrdusmärk mille ees on jagamismärk "/", automaatselt jagab muutuja sisu võrdusmärgi teisel pool oleva arvu osadeks. asendab tehet "thing = thing / 2".
                            //       on kombinatsioon matemaatilisest tehtest "/" ja omistamisest "=".
             thing++;       //++ -> on spetsiifiliselt ühe juurde liitmiseks kiirtehe.
-            thing -        //-- -> on spetsiifiliselt ühe maha lahutamiseks kiirtehe.
+            thing--;        //-- -> on spetsiifiliselt ühe maha lahutamiseks kiirtehe.
 
             /* Tsüklid */
             // 1. do while 
